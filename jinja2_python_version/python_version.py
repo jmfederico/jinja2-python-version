@@ -8,10 +8,10 @@ from jinja2.ext import Extension
 class PythonVersion():
     """An object that contains python version information."""
 
-    tuple = platform.python_version_tuple()
-    major = '{}'.format(tuple[0])
-    minor = '{}.{}'.format(tuple[0], tuple[1])
-    micro = '{}.{}.{}'.format(tuple[0], tuple[1], tuple[2])
+    _version = platform.python_version_tuple()
+    major = '{}'.format(_version[0])
+    minor = '{}.{}'.format(_version[0], _version[1])
+    micro = '{}.{}.{}'.format(_version[0], _version[1], _version[2])
 
     def __str__(self):
         """Return Python version up to minor."""
