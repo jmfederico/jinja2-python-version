@@ -1,20 +1,8 @@
-# Created by https://www.gitignore.io/api/django,python
-
-### Django ###
-*.log
-*.pot
-*.pyc
-__pycache__/
-local_settings.py
-db.sqlite3
-media
-
-# If your build process includes running collectstatic, then you probably don't need or want to include staticfiles/
-# in your Git repository. Update and uncomment the following line accordingly.
-# <django-project-name>/staticfiles/
+# Created by https://www.gitignore.io/api/python
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
+__pycache__/
 *.py[cod]
 *$py.class
 
@@ -63,6 +51,7 @@ coverage.xml
 
 # Translations
 *.mo
+*.pot
 
 # Flask stuff:
 instance/
@@ -112,4 +101,4 @@ venv.bak/
 .mypy_cache/
 
 
-# End of https://www.gitignore.io/api/django,python
+# End of https://www.gitignore.io/api/python
