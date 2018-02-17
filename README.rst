@@ -29,7 +29,4 @@ Usage
     # 3.6.4
     template = env.from_string("{{ python_version.micro }}")
 
-    # ('3', '6', '4')
-    template = env.from_string("{{ python_version.tuple }}")
-
     template.render()
