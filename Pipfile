@@ -7,10 +7,10 @@ name = "pypi"
 
 [packages]
 
-"jinja2-python-version" = {path = ".", editable = true}
-
 
 [dev-packages]
 
+jinja2-python-version = {path = ".", editable = true}
 isort = "*"
 tox = "*"
+twine = "*"
