@@ -8,7 +8,7 @@ Jinja2 Python Version
 .. image:: https://travis-ci.org/jmfederico/jinja2-python-version.svg?branch=master
     :target: https://travis-ci.org/jmfederico/jinja2-python-version
 
-A Jinja extenstion that creates a global variable with Python version
+A Jinja extension that creates a global variable with Python version
 information for your Jinja2 templates:
 
 Usage

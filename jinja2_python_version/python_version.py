@@ -23,6 +23,6 @@ class PythonVersionExtension(Extension):
 
     def __init__(self, environment):
         """Extend environment by adding globals."""
-        super().__init__(environment)
+        super(PythonVersionExtension, self).__init__(environment)
 
         environment.globals['python_version'] = PythonVersion()
