@@ -11,6 +11,8 @@ Jinja2 Python Version
 A Jinja extension that creates a global variable with Python version
 information for your Jinja2 templates:
 
+Compatible with Jinja2 versions 2.x and 3.x.
+
 Usage
 -----
 .. code-block:: console
