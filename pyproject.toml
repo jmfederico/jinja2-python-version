@@ -11,7 +11,7 @@ readme = "README.rst"
 repository = "https://github.com/jmfederico/jinja2-python-version"
 homepage = "https://github.com/jmfederico/jinja2-python-version"
 
-keywords = ["jinja2", "extension", "python", "versions"]
+keywords = ["jinja2", "jinja3", "extension", "python", "versions"]
 
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -22,7 +22,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^2.7 || >=3.4"
-Jinja2 = "^2.0"
+Jinja2 = "^2.0" || "^3.0"
 
 [tool.poetry.dev-dependencies]
 
