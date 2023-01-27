@@ -2,7 +2,6 @@ dist: bionic
 language: python
 python:
   - "2.7"
-  - "3.4"
   - "3.5"
   - "3.6"
   - "3.7"
@@ -12,3 +11,8 @@ python:
   - "3.11-dev"
 install: pip install tox-travis
 script: tox
+
+jobs:
+  include:
+  - python: 3.4
+    dist: xenial
