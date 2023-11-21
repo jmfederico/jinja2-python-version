@@ -1,6 +1,5 @@
 * Jinja2 Python Version version:
 * Python version:
-* Operating System:
 
 ### Description
 
