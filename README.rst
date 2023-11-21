@@ -5,8 +5,8 @@ Jinja2 Python Version
 .. image:: https://badge.fury.io/py/jinja2-python-version.svg
     :target: https://badge.fury.io/py/jinja2-python-version
 
-.. image:: https://app.travis-ci.com/jmfederico/jinja2-python-version.svg?branch=master
-    :target: https://app.travis-ci.com/jmfederico/jinja2-python-version
+.. image:: https://github.com/jmfederico/django-use-email-as-username/actions/workflows/tests.yml/badge.svg
+    :target: https://github.com/jmfederico/django-use-email-as-username/actions/workflows/tests.yml
 
 A Jinja extension that creates a global variable with Python version
 information for your Jinja2 templates:
