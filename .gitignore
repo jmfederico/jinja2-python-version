@@ -103,5 +103,6 @@ venv.bak/
 
 # End of https://www.gitignore.io/api/python
 
-poetry.lock
 .vscode
+pdm.lock
+.pdm-python
