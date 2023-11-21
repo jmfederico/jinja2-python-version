@@ -6,7 +6,6 @@ authors = [
     { name = "Federico Jaramillo Martinez", email = "federicojaramillom@gmail.com" },
 ]
 dependencies = ["Jinja2>=2.0"]
-requires-python = ">=2.7"
 readme = "README.rst"
 license = { text = "BSD-3-Clause" }
 keywords = ["jinja2", "jinja3", "extension", "python", "versions"]
